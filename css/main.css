@@ -1,0 +1,29 @@
+@charset "utf-8";
+/*CSS document*/
+
+.hidden
+{
+	display: none;
+}
+body {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  color: black;
+  /*width: 1366px;*/
+  margin: 0 auto;
+  background: url(../images/bg.png) no-repeat;
+  background-position: top center;
+  
+}
+.conteiner{
+	width: 1366px;
+	margin: 0 auto;
+}
+.mainHeader{
+	display: flex;
+  	flex-direction: row;
+  	justify-content: center;
+}
+.logoHeader{
+	margin-top: 20px;
+}
+
