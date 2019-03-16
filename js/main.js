@@ -1,12 +1,32 @@
-//create jar, name jar, place string in jar
-var firstName = "Marco";
 
-//alert is method (built in function in JS)
-// alert("Hello" + firstName);
+var x = document.getElementById("olhaInformation");
+var Evgeniia = document.getElementById("evgeniiaInformation");
 
-//modern JS
-// alert(`Hello ${firstName}`);
 
-// console.log("Hello " + firstName);
 
-console.log("javascript linked up");
+// olha part
+function olhaClick()
+{
+	x.style.display = "block";
+}
+
+
+function buttonOlha() {
+	x.style.display = "none";
+}
+
+// Evgeniia part
+
+var Evgeniia = document.getElementById("evgeniiaInformation");
+
+function EvgeniiaPerfect()
+{
+	Evgeniia.style.display = "block";
+
+	
+}
+
+function buttonEvgeniia() {
+	Evgeniia.style.display = "none";
+}
+
